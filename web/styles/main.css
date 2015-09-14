@@ -1,6 +1,9 @@
+
+
+
 html{
     
-    background-image: url("bats.gif");
+    background-image: url("../images/bats.gif");
     background-repeat: repeat;
   
     
@@ -9,34 +12,62 @@ html{
 body{
     width: 800px;
     margin: 0 auto;
+    padding-top:0;
+    background:white;
+    border: 3px solid black;
     font-family:  Arial, Verdana, sans-serif;
     box-shadow:0px 10px 50px 20px black;
+    
+   
 }
 
-main{
+.sidebar{
+    width:160px;
+    float:left;
+    float:top;
+  
     
+   
+  
+    
+}
+
+.middle{
+    width:560px;
+    float:right;
     padding-left: 5%;
     padding-right:5%;
     background:white;
-    background: white;
-    border-style:solid;
-    border-width:2px;
+    
+   
+    
+}
+
+main{
+  
+    width:400px;
+    float:right;
+    padding-left: 5%;
+    padding-right:5%;
+    background:white;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-width:0px;
     border-color:black;
    
 }
+
 header{
-   
+    
     border-style: solid;
     background:linear-gradient(45deg, white, orange, orange, black);
     border-bottom-color: black;
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 5px;
       
 }
-img{
-    float: left;
-    padding: 2%;
-}
+
+
 h1{
     margin-bottom:1%;
     text-indent:1em;
@@ -50,12 +81,13 @@ h3{
     font-weight:bold;
 }
 h2{
-  
+    clear:both;
     font-size: 1.3em;
     font-weight:bold;
 }
 
 h4{
+    
     font-size: 1.5em;
     margin-top:2%;
     margin-bottom:0;
@@ -65,8 +97,20 @@ h4::first-letter{
     font-size:200%;
     
 }
-p{
+h5{
+    
+    font-size:1.5em;
+    margin-bottom:0;
     margin-top:0;
+}
+img{
+    float: left;
+    padding: 2%;
+}
+
+p{
+    clear:both;
+    margin-top:2%;
     margin-bottom:1%;
 }
 li{
@@ -74,6 +118,7 @@ li{
 }
 a{
     color:orange;
+    
     font-weight:bold;
   
 }
@@ -84,13 +129,15 @@ a:hover{
 footer{
     border-top-color:black;
     border-top-style:solid;
-    border-top-width: 1px;
+    border-top-width: 5px;
     background:linear-gradient(45deg, black, orange, orange, white);
     padding-top: 5%;
     padding-bottom:5%;
     font-size:0.7em;
     text-align:center;
-    margin-bottom:5%;
+    margin-bottom:0%;
+    clear:both;
 }
+
 
 
