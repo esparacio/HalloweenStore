@@ -1,12 +1,7 @@
 
-
-
 html{
-    
     background-image: url("../images/bats.gif");
-    background-repeat: repeat;
-  
-    
+    background-repeat: repeat; 
 }
 
 body{
@@ -17,18 +12,23 @@ body{
     border: 3px solid black;
     font-family:  Arial, Verdana, sans-serif;
     box-shadow:0px 10px 50px 20px black;
-    
-   
+  
+}
+nav{
+    width:800px;
+    margin: 0 auto;
+    background: blue;
+    clear:both;
+}
+nav li a{
+    display:inline;
+    background:purple;
 }
 
 .sidebar{
-    width:160px;
     float:left;
-  
-    
+    width:160px;
    
-  
-    
 }
 
 .middle{
@@ -38,12 +38,9 @@ body{
     padding-right:5%;
     background:white;
     
-   
-    
 }
 
 main{
-  
     width:400px;
     float:right;
     padding-left: 5%;
@@ -52,26 +49,21 @@ main{
     border-top-style:solid;
     border-bottom-style:solid;
     border-width:0px;
-    border-color:black;
-   
+    border-color:black; 
 }
 
 header{
-    
     border-style: solid;
     background:linear-gradient(45deg, white, orange, orange, black);
     border-bottom-color: black;
     border-bottom-style: solid;
-    border-bottom-width: 5px;
-      
+    border-bottom-width: 5px;     
 }
-
 
 h1{
     margin-bottom:1%;
     text-indent:1em;
     font-size: 2.5em;
-  
 }
 h3{
     margin-top:0;
@@ -85,19 +77,15 @@ h2{
     font-weight:bold;
 }
 
-h4{
-    
+h4{ 
     font-size: 1.5em;
     margin-top:2%;
     margin-bottom:0;
 }
 h4::first-letter{
-    
     font-size:200%;
-    
 }
-h5{
-    
+h5{ 
     font-size:1.5em;
     margin-bottom:0;
     margin-top:0;
@@ -112,14 +100,12 @@ p{
     margin-top:2%;
     margin-bottom:1%;
 }
-li{
+.sidebar li{
     line-height:1.5;
 }
 a{
     color:orange;
-    
     font-weight:bold;
-  
 }
 a:hover{
     color:green;
@@ -137,6 +123,46 @@ footer{
     margin-bottom:0%;
     clear:both;
 }
+
+ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.sidebar li a{
+    
+    display:block;
+    width:7em; 
+    line-height:2em; 
+    background-color: orange;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .3em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: 3px solid black;
+    
+}
+
+li a:hover{
+    background:black;
+    color:white;
+}
+
+li a:active{
+    background:red;
+    color:black;
+    position:relative;
+    top: 2px;
+}
+
+
+
+
+
 
 
 
